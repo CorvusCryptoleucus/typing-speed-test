@@ -1,0 +1,137 @@
+/* Global Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #2b303c; /* Dark background color */
+    color: #ffffff; /* White text color */
+    font-family: 'Roboto', sans-serif; /* Default font for body */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Container */
+.main-container {
+    flex: 1; /* Take up available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    max-width: 800px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Add padding for mobile devices */
+}
+
+/* H1 Style with Raleway Font */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif; /* Raleway font for header */
+}
+
+/* H2 Style */
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: left; /* Align text to the left */
+}
+
+/* Instructions */
+p {
+    text-align: left; /* Align instructions to the left */
+    margin: 0; /* Remove default margin */
+}
+
+/* Specific styling for ordered list items */
+ol {
+    padding-left: 75px; /* Indent ordered list */
+    text-align: left; /* Align text to the left */
+}
+
+/* Test Text */
+#test-text {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 1.2em; /* Slightly larger font size */
+    text-align: justify; /* Justify text */
+    width: 100%; /* Full width to align with textarea */
+    padding-left: 75px; /* Indentation to align with the textarea */
+    padding-right: 75px; /* Indentation to align with the textarea */
+}
+
+/* Textarea Styling */
+#user-input {
+    width: 100%;
+    max-width: 800px;
+    height: 150px; /* Increased height for better usability */
+    margin: 10px auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #1e222b; /* Slightly lighter dark background */
+    color: #ffffff;
+    border: 1px solid #444;
+    resize: none; /* Disable resizing */
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left; /* Align text to the left */
+}
+
+/* Link Styles */
+a {
+    color: #ffc6f4; /* Original link color */
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #a93edb; /* Color when the link is hovered over */
+}
+
+/* Button Styling */
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Results Styling */
+#results {
+    margin-top: 20px;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+
+/* Footer Styling */
+footer {
+    display: flex;
+    flex-direction: column; /* Ensure children are stacked vertically */
+    align-items: center; /* Center children horizontally */
+    margin-top: 20px; /* Optional: Space above the footer */
+}
+
+.copyright {
+    text-align: center; /* Center the copyright text */
+    margin-bottom: 5px; /* Space between copyright and social links */
+}
+
+.social-links {
+    display: flex;
+    justify-content: center; /* Center the social links horizontally */
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 10px; /* Space between social links */
+    display: inline-block;
+}
