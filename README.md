@@ -28,7 +28,7 @@ In addition to this GitHub version, there is also a version of this same project
 - Google Fonts
 
 ## Usage
-[Live Website](https://short-typing-speed-test.corvuscryptoleucus.com)
+[Live Website](https://long-typing-speed-test.corvuscryptoleucus.com)
 
 ## Contact
 For more information, visit [corvuscryptoleucus.com](https://corvuscryptoleucus.com).
